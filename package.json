@@ -1,15 +1,22 @@
 {
-    "title": "Freelancer",
-    "name": "startbootstrap-freelancer",
+    "title": "Tyler Ray",
+    "name": "tyler-rays-portfolio-v1",
     "version": "4.1.1",
-    "description": "A freelancer portfolio HTML theme for Bootstrap.",
+    "description": "Tyler Ray's portfolio showing skills and links to Tyler's work around the web.",
     "keywords": [
         "css",
         "sass",
         "html",
         "responsive",
         "theme",
-        "template"
+        "template",
+        "Tyler Ray",
+        "Tyler",
+        "Ray",
+        "J Tyler",
+        "React",
+        "Jest"
+        
     ],
     "homepage": "https://startbootstrap.com/template-overviews/freelancer",
     "bugs": {

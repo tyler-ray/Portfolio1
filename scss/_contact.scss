@@ -52,3 +52,13 @@
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid $gray-200;
 }
+
+// Skills:
+.skills-wrapper{
+  border:1px solid red;
+  display:grid;
+  grid-template-rows:1fr 1fr 1fr;
+}
+.skill{
+  border:20ps solid green;
+}

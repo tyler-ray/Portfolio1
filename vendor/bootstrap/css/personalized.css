@@ -1,0 +1,20 @@
+.skills-wrapper{
+    /* border:1px solid red; */
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+}
+.skill{
+    /* border: 2px solid green; */
+    text-align:center;
+}
+.skills{
+    padding-bottom:2rem;
+}
+.control-group{
+    border:1px solid #2C3E50;
+    margin-bottom:5px;
+}
+.myBorder{
+    /* margin-bottom:10px; */
+}

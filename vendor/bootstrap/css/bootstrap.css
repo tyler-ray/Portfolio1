@@ -73,6 +73,8 @@ body {
   outline: 0 !important;
 }
 
+
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -419,7 +421,12 @@ h6, .h6 {
   font-weight: 300;
   line-height: 1.2;
 }
-
+.skills{
+  background-color: #2C3E50
+}
+#skills{
+  background-color: #2C3E50
+}
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -478,8 +485,9 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  width:100%;
   height: auto;
+  border:3px solid red;
 }
 
 .img-thumbnail {
@@ -8978,4 +8986,8 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+.skill.CSS{
+  border:2px solid gold;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
