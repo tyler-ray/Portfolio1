@@ -11,12 +11,12 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
 // Create the email and send the message
-$to = "tyler.ray.97@gmail.com"; // Add your email address inbetween the "" replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = "contact@jtylerray.com"; // Add your email address inbetween the "" replacing yourname@yourdomain.com - This is where the form will send a message to.
 
-$subject = "Website Contact Form:  $name";
+$subject = "Portfolio Contact From:  $name";
 $body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email\n\nPhone: $phone\n\nMessage:\n$message";
-// $header = "From: noreply@raydesign.space\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-$header .= "Reply-To: $email";	
+$header = "From: jtray@outlook.es\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+// $header .= "Reply-To: $email";	
 
 if(!mail($to, $subject, $body, $header))
   http_response_code(500);
